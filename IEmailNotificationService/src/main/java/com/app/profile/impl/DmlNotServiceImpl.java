@@ -6,14 +6,14 @@ import org.springframework.stereotype.Component;
 import com.app.IService.INotificationService;
 
 @Component
-@Profile("DML")
+@Profile("Dev")
 
 public class DmlNotServiceImpl implements INotificationService {
 
 	@Override
 	public void notificate() {
 
-		System.out.println("DML Profile");
+		System.out.println("Dev Profile");
 
 	}
 
